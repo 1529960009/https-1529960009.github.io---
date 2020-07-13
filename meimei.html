@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<head>
+    <title>功能表</title>
+	<script language="javascript" type="text/javascript" src="https://cdn.staticfile.org/jquery/1.7.2/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" Content="机器人功能指令说明">
+	<meta name="renderer" content="webkit"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css">
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+
+        .footnote {
+            color: red;
+        }
+		html,
+    body {
+        height: 100%;
+    }
+ 
+    body {
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: url("http://tie.027cgb.com/631148/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E7%BE%8E%E7%BE%8E.gif");
+		opacity:1
+		
+    }
+	
+    
+
+    </style>
+</head>
+
+<body class="markdown-body">
+	<div style="display: block; margin: 0 auto; width: 50%; background: #ccc;">	
+	<script type="text/javascript">
+
+	/* 鼠标特效 */ 
+
+	var a_idx = 0; jQuery(document).ready(function($) { $("body").click(function(e) { var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善"); 
+
+	var $i = $("<span/>").text(a[a_idx]); a_idx = (a_idx + 1) % a.length; var x = e.pageX, y = e.pageY; $i.css({ "z-index": 99, "top": y - 20, "left": x, "position": "absolute", "font-weight": "bold", 
+
+	"color": "#ff6651" }); $("body").append($i); $i.animate({ "top": y - 180, "opacity": 0 }, 1500, function() { $i.remove(); }); }); });
+
+	</script></div>
+	
+	<h1>美美的日记</h1>
+	<h2>页面指引</h2>
+	<p>
+	<a href="http://175.24.70.191:9222/yobot/help"><b>【返回小仓唯的帮助手册】</b></a><br>
+	</p>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0001">日记的说明</h2>
+			<p>美美给小仓唯的功能表加了详细的注释</p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0002">登录</h2>
+			<p>【登录】是bot会战web端功能的核心，所有成员可以私聊bot【登录】获取一个链接，登录bot会战功能的网页端</p>
+			<p>bot新加入群，群成员如果不是bot好友有可能发送登录收不到链接，这是因为被屏蔽了，请过几个小时后再尝试</p>
+			<p>首次登录后，密码为自己设置，请不要设置为自己的QQ密码，避免风险（虽然可能性几乎为0），群管理登录后自动成为会战管理员，除非发送BUG</p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0003">创建公会</h2>
+			<p>发送【创建公会】默认创建的是国服工会，请输入【创建日服/台服/国服工会】来准确创建</p>
+			<p><font color="#FF0000">创建公会前请联系bot维护组重启，避免发生BUG!</font></p>
+			<p>创建公会后应该尽快加入全部成员，【查刀】界面是可以删除成员的（限制会战管理员）</p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0004">咖啡功能</h2>
+			<p>这个功能可以直接联系到我，请附带需要反馈的内容，bot出了问题优先用这个通知我，或者有什么建议也可以通过这个功能告知</p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0005">翻译功能</h2>
+			<p>这个功能使用的“百度翻译”，翻译有任何问题问度娘，别找我</p>
+			<p>目前支持的语种有支持中文、英语、粤语、文言文、繁体、日语、法语、俄语、德语共九种语言</p>
+			<p>示例“翻译日语 你完蛋了”</p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0006">bot被骂反击功能</h2>
+			<p>骂bot会被bot加入黑名单，持续8小时无法使用本bot大部分功能</p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0007">lssv模块管理</h2>
+			<p>这个功能限群管理及以上权限者使用，lssv里是bot能分群管理的部分功能，群主及管理应该学会使用</p>
+			<p><font color="#FF0000"> _feedback_</font>是<a href="http://175.24.70.191:9222/yobot/help2/#0004"><b>咖啡</b></a>功能</p>
+			<p><font color="#FF0000">antiqks</font>骑空士的阴谋，资深骑空士才能触发的彩蛋</p>
+			<p><font color="#FF0000">dice</font>扔骰子功能</p>
+			<p><font color="#FF0000">flac</font>搜无损音乐，暂时不可用</p>
+			<p><font color="#FF0000">gacha</font>模拟抽卡功能</p>
+			<p><font color="#FF0000">group-leave-notice</font>退群通知</p>
+			<p><font color="#FF0000">group-welcome</font>入群欢迎</p>
+			<p><font color="#FF0000">hourcall</font>整点报时功能</p>
+			<p><font color="#FF0000">longwang</font>迫害龙王功能</p>
+			<p><font color="#FF0000">pcr-arena</font>“怎么拆”为关键词的竞技场查询</p>
+			<p><font color="#FF0000">pcr-cherugo</font>切噜语功能</p>
+			<p><font color="#FF0000">pcr-comic</font></p>
+			<p><font color="#FF0000">pcr-login-bonus</font></p>
+			<p><font color="#FF0000">pcr-news-bili</font></p>
+			<p><font color="#FF0000">pcr-news-tw</font></p>
+			<p><font color="#FF0000">pcr-query</font></p>
+			<p><font color="#FF0000">random-repeater</font></p>
+			<p><font color="#FF0000">picfinder</font></p>
+			<p><font color="#FF0000">random-repeater</font></p>
+			<p><font color="#FF0000">sleeping-set</font></p>
+			<p><font color="#FF0000">hourcallyao</font></p>
+			<p><font color="#FF0000">hourcallyao_jp</font></p>
+			<p><font color="#FF0000">pcr-arena-reminder-jp</font></p>
+			<p><font color="#FF0000">pcr-arena-reminder-tw</font></p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+			
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0008">bot入群说明</h2>
+			<p></p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="0009">bot入群说明</h2>
+			<p></p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="00010">bot入群说明</h2>
+			<p></p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
+	
+	<div style="background-color:rgba(255,255,255,0.5);">
+		<h2 id="00011">bot入群说明</h2>
+			<p></p>
+			<a href="http://175.24.70.191:9222/yobot/help2"><b>返回顶部</b></a>
+	</div><br>
